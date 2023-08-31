@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+section {
+    margin-top: 100px;
+}
+
+#help {
+    margin: auto;
+}
+
+button {
+    padding: 10px;
+}
+
+#front {
+    background-color: #15A7E0;
+    transform: rotateY(180deg);
+}
+
+#back {
+    background-color: black;
+    backface-visibility: hidden;
+    color: white;
+}
+
+#card {
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    transition: all .5s;
+}
+
+.face {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.flip {
+    transform: rotateY(180deg);
+}
