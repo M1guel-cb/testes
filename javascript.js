@@ -1,4 +1,4 @@
-const card = document.querySelector('#card');
+const card = document.getElementById('card');
 const botao1 = document.getElementById('b1');
 const botao2 = document.getElementById('b2');
 const botao3 = document.getElementById('b3');
